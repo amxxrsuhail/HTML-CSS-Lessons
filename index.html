@@ -29,6 +29,14 @@
 
          <h2>Im ready to learn HTML</h2>
          <p>This is my first web page</p>
+         <img src="images/html5.png" alt="HTML5 logo" width="300" height="300">
+         
+         <figure>
+            <figcaption>    <!--figures can also be used to display code syntax on ur page-->
+                <code>&lt;h1&gt;Hello world&lt;/h1&gt;</code>
+            </figcaption>
+
+         </figure>
                                                       
          <h3>My Daily Schedule</h3>
          <p>let me tell you how: </p>
@@ -48,8 +56,13 @@
         
          <section id="vacation">
 
-        <h3>Places I'd like to visit:</h3>
-        <ul>                       <!--to create list with bullets-->
+        <h3>Places I'd like to visit:</h3>        <!--lazy loading is used to make th page load faster if there are so many images -->
+        
+        <figure><img src="images/alps-7426887_1920.jpg" alt="Alps image" width="700" height="400" loading="lazy">  
+            <figcaption>Snowy mountains</figcaption></figure>
+        
+        <ul>                                                   <!--to create list with bullets,loading either given eager(default) or lazy-->
+                     
             <li>canada</li>
             <li>switzerland</li>
             <li>italy</li>
@@ -57,6 +70,10 @@
         </ul>
 
         <h3>Places I'd like not to visit:</h3>
+        
+        <figure><img src="images/gobi-692640_1920.jpg" alt="Desert Regions" width="700" height="400" loading="lazy">
+            <figcaption>Desert Regions</figcaption></figure>
+        
         <dl>                       <!--to create descriptive lists-->
         
         <dt> <strong>Desert Regions:</strong> </dt>
