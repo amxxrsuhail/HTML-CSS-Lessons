@@ -1,133 +1,174 @@
 <!DOCTYPE html>
 <!--start every html file with this-->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!--typical universal standard in most webpage-->
-    <meta name="author" content="ameer suhail" />
-    <meta name="description" content="practice for my html lessons." />
-    <title>My First Webpage</title>
-    <link rel="icon" href="html5.png" type="image/x-icon" />
-    <link rel="stylesheet" href="main.css" type="text/css" />
-  </head>
 
-  <body>
-    <header>
-      <h1>My Goals for the Year</h1>
+<head>
+  <meta charset="UTF-8" />
+  <!--typical universal standard in most webpage-->
+  <meta name="author" content="ameer suhail" />
+  <meta name="description" content="practice for my html lessons." />
+  <title>My First Webpage</title>
+  <link rel="icon" href="html5.png" type="image/x-icon" />
+  <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
 
-      <nav aria-label="primary navigation">
-        <!--to navigate to specific area of current page-->
-        <ul>
-          <li><a href="#html">Learn HTML</a></li>
-          <li><a href="#vacation">Vacation</a></li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header>
+    <h1>My Goals for the Year</h1>
+
+    <nav aria-label="primary navigation">
+      <!--to navigate to specific area of current page-->
+      <ul>
+        <li><a href="#html">Learn HTML</a></li>
+        <li><a href="#vacation">Vacation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr />
+  <main>
+    <article id="html">
+      <h2>Im ready to learn HTML</h2>
+      <p>This is my first web page</p>
+      <img src="images/html5.png" alt="HTML5 logo" width="300" height="300" />
+
+      <figure>
+        <figcaption>
+          <!--figures can also be used to display code syntax on ur page-->
+          <code>&lt;h1&gt;Hello world&lt;/h1&gt;</code>
+        </figcaption>
+      </figure>
+
+      <h3>My Daily Schedule</h3>
+      <p>let me tell you how:</p>
+      <ol>
+        <!--to create list with nos-->
+        <li>i learn more about web dev.</li>
+        <li>i plan out my schedule.</li>
+        <li>
+          i use resources from
+          <a href="https://developer.mozilla.org"> MDN.</a>
+        </li>
+      </ol>
+      <aside>
+        <details>
+          <summary>
+            Guess the <mark>number of hours</mark> I code per day
+          </summary>
+          <p>
+            <!--time date time is used to make it readable for other technologies when we use it -->
+            I start at <time datetime="08:00">8 am</time> and i write code for
+            <time datetime="PT3H"> 3 hours</time> every morning
+          </p>
+        </details>
+      </aside>
+      <br />
+      <table>
+        <caption>My Daily Schedule</caption>
+
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <!--scope row and column headings is added to make recognizable for other technologies-->
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Morning</th>
+            <td>
+              <time datetime="08:00">8 am</time>-<time datetime="11:00">11 am</time>
+            </td>
+            <td>Start coding</td>
+          </tr>
+          <tr>
+            <th scope="row">Break</th>
+            <td>
+              <time datetime="11:00">11 am</time>-<time datetime="12:00">12 pm</time>
+            </td>
+            <td>Lunch time</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Afternoon</th>
+            <td>
+              <time datetime="12:00">12 pm</time>-<time datetime="17:00">5 pm</time>
+            </td>
+            <td>Study new technologies</td>
+          </tr>
+          <tr>
+            <th scope="row" rowspan="2">Evening</th>
+            <td rowspan="2">Rest of the time</td>
+            <td>FREE TIME</td>
+          </tr>
+          <tr>
+            <td>SLEEP</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">And thats what I do every day, 5 days a week. Just eat, sleep, code and recharge. </td>
+          </tr>
+        </tfoot>
+      </table>
+    </article>
 
     <hr />
-    <main>
-      <article id="html">
-        <h2>Im ready to learn HTML</h2>
-        <p>This is my first web page</p>
-        <img src="images/html5.png" alt="HTML5 logo" width="300" height="300" />
+    <article id="vacation">
+      <h2>Im also planning a vacation</h2>
+      <p>I've been working hard and <em>really need a getaway</em></p>
+      <p>I live in kerala and I wanna visit a country with snow season</p>
+
+      <section>
+        <h3>Places I'd like to visit:</h3>
+        <!--lazy loading is used to make th page load faster if there are so many images -->
 
         <figure>
-          <figcaption>
-            <!--figures can also be used to display code syntax on ur page-->
-            <code>&lt;h1&gt;Hello world&lt;/h1&gt;</code>
-          </figcaption>
+          <img src="images/alps-7426887_1920.jpg" alt="Alps image" width="700" height="400" loading="lazy" />
+          <figcaption>Snowy mountains</figcaption>
         </figure>
 
-        <h3>My Daily Schedule</h3>
-        <p>let me tell you how:</p>
-        <ol>
-          <!--to create list with nos-->
-          <li>i learn more about web dev.</li>
-          <li>i plan out my schedule.</li>
-          <li>
-            i use resources from
-            <a href="https://developer.mozilla.org"> MDN.</a>
-          </li>
-        </ol>
-        <aside>
-          <details>
-            <summary>
-              Guess the <mark>number of hours</mark> I code per day
-            </summary>
-            <p>
-              <!--time date time is used to make it readable for other technologies when we use it -->
-              I start at <time datetime="06:00">6 am</time> and i write code for
-              <time datetime="PT3H"> 4 hours</time> every morning
-            </p>
-          </details>
-        </aside>
-      </article>
+        <ul>
+          <!--to create list with bullets,loading either given eager(default) or lazy-->
 
-      <hr />
-      <article id="vacation">
-        <h2>Im also planning a vacation</h2>
-        <p>I've been working hard and <em>really need a getaway</em></p>
-        <p>I live in kerala and I wanna visit a country with snow season</p>
+          <li>canada</li>
+          <li>switzerland</li>
+          <li>italy</li>
+          <li>amsterdam</li>
+        </ul>
+      </section>
+      <section>
+        <!--sections are added inside article which makes it easier to access for other  technologies-->
+        <h3>Places I'd like not to visit:</h3>
 
-        <section>
-          <h3>Places I'd like to visit:</h3>
-          <!--lazy loading is used to make th page load faster if there are so many images -->
+        <figure>
+          <img src="images/gobi-692640_1920.jpg" alt="Desert Regions" width="700" height="400" loading="lazy" />
+          <figcaption>Desert Regions</figcaption>
+        </figure>
 
-          <figure>
-            <img
-              src="images/alps-7426887_1920.jpg"
-              alt="Alps image"
-              width="700"
-              height="400"
-              loading="lazy"
-            />
-            <figcaption>Snowy mountains</figcaption>
-          </figure>
+        <dl>
+          <!--to create descriptive lists-->
 
-          <ul>
-            <!--to create list with bullets,loading either given eager(default) or lazy-->
+          <dt><strong>Desert Regions:</strong></dt>
+          <dd>dubai</dd>
+          <dd>saudi</dd>
 
-            <li>canada</li>
-            <li>switzerland</li>
-            <li>italy</li>
-            <li>amsterdam</li>
-          </ul>
-        </section>
-        <section>
-          <!--sections are added inside article which makes it easier to access for other  technologies-->
-          <h3>Places I'd like not to visit:</h3>
+          <dt><strong>Coastal Regions:</strong></dt>
+          <dd>hawai</dd>
+          <dd>maldives</dd>
+        </dl>
+      </section>
+    </article>
+  </main>
+  <hr />
+  <!--to open in new tab use target in line 85-->
+  <footer>
+    &lt;&lt;&lt; &COPY;
+    <a href="about.html" target="_blank">Ameer Suhail</a> &gt;&gt;&gt;
+    <p><a href="#">Back to Top</a></p>
+  </footer>
+</body>
 
-          <figure>
-            <img
-              src="images/gobi-692640_1920.jpg"
-              alt="Desert Regions"
-              width="700"
-              height="400"
-              loading="lazy"
-            />
-            <figcaption>Desert Regions</figcaption>
-          </figure>
-
-          <dl>
-            <!--to create descriptive lists-->
-
-            <dt><strong>Desert Regions:</strong></dt>
-            <dd>dubai</dd>
-            <dd>saudi</dd>
-
-            <dt><strong>Coastal Regions:</strong></dt>
-            <dd>hawai</dd>
-            <dd>maldives</dd>
-          </dl>
-        </section>
-      </article>
-    </main>
-    <hr />
-    <!--to open in new tab use target in line 85-->
-    <footer>
-      &lt;&lt;&lt; &COPY;
-      <a href="about.html" target="_blank">Ameer Suhail</a> &gt;&gt;&gt;
-      <p><a href="#">Back to Top</a></p>
-    </footer>
-  </body>
 </html>
