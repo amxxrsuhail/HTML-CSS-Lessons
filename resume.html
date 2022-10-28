@@ -4,32 +4,34 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!--typical universal standard in most webpage-->
+    <!--typical universal standard in most webpages-->
     <meta name="author" content="ameer suhail" />
     <meta name="description" content="My Resume" />
     <title>K Ameer Suhail</title>
     <link rel="icon" href="resume.png" type="image/x-icon" />
-
-    <style>
-        body {
-            background-color: #DFF6FF;
-        }
-    </style>
-
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <br>
-        <table cellspacing="20">
+        <table cellspacing="30">
             <tr>
+                <!-- difference between class and id is even though they both are similar id should be and more than one element cannot have the same if whereas class can same for numerous elements -->
+                <!-- class can can be typed as <img class profile picture>, in this both profile and picture different class written in same line of the tag whereas id cannot be written like this it can have only one name in the line -->
+                <!-- create a class next to img by typing [class="anyname"] next to img if u want to just customize that and same applies to everything -->
                 <td><img src="profilepic.png" alt="Profile Picture" /></td>
                 <td>
+                    <!-- create a id next to img by typing [id="anyname"] next to h1 if u want to just customize that and same applies to everything -->
                     <h1>K Ameer Suhail</h1>
-                    <p>Highly motivated and ambitious professional with strong ability to learn, implement,
-                        and manage software programs. Proficient in Core Python and programming concepts.
-                        Focuses more on excellence and delivering high-quality innovative work on time.
-                        Flexible, adaptable, and able to autonomously manage multiple tasks in a dynamic, fast-
+                    <p id="summary">Graduated as a civil engineer in 2021 and have been working as a site engineer and
+                        quantity surveyor in various residential projects. And lately came to a realization that
+                        construction field isn't my piece of cake. In order to do a trial and error method, I
+                        contributed a year of mine to pursue what I have studied in college. And currently started to
+                        explore the world of programming. Started my career in programming by learning C programming,
+                        Java, Python, Git, HTML and CSS as a stepping stone. Highly motivated and ambitious professional
+                        with strong ability to learn, implement and manage software programs. Proficient in Core Python
+                        and programming concepts. Focuses more on excellence and delivering high-quality innovative work
+                        on time. Flexible, adaptable, and able to autonomously manage multiple tasks in a dynamic, fast-
                         paced environment. Looking for an entry-level opportunity in a dynamic organization
                         where my expertise and skills will be fully utilized.</p>
                 </td>
@@ -67,7 +69,7 @@
         <article id="workexperience">
             <h2>Work Experience</h2>
             <h3>Quantity Surveyor | Glenearth Contructions LLP (Mar 2022- July 2022)</h3>
-            <p><b>Key Contributions:</b></p>
+            <h4>Key Contributions:</h4>
             <ul>
                 <li>Prepared BOQ using Microsoft excel for various residential projects</li>
                 <li>Upskilled in AutoCAD in order to meet the organizations needs</li>
@@ -77,7 +79,7 @@
                 <li>Done periodic inspections on project progress</li>
             </ul>
             <h3>Site Engineer | R Five Constructions (Aug 2021- Nov 2021)</h3>
-            <p><b>Key Contributions:</b></p>
+            <h4>Key Contributions:</h4>
             <ul>
                 <li>Calculated quantity of materials and arranged it as per needs</li>
                 <li>Volunteered a full redesign of ground floor</li>
