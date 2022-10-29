@@ -1,3 +1,15 @@
+a:visited {
+    color: rgb(168, 129, 20);
+}
+
+a:link {
+    color: rgb(168, 129, 20);
+}
+
+a:hover {
+    color: #F5EFE6;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -10,6 +22,51 @@ body {
     bottom: 300px;
 }
 
+.bottomsection {
+    background-color: #e0d4b6;
+    margin-bottom: 0;
+}
+
+.btn {
+    background: #e0c998;
+    background-image: -webkit-linear-gradient(top, #e0c998, #ccb991);
+    background-image: -moz-linear-gradient(top, #e0c998, #ccb991);
+    background-image: -ms-linear-gradient(top, #e0c998, #ccb991);
+    background-image: -o-linear-gradient(top, #e0c998, #ccb991);
+    background-image: linear-gradient(to bottom, #e0c998, #ccb991);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #8a8057;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #d1c288;
+    background-image: -webkit-linear-gradient(top, #d1c288, #d6c49f);
+    background-image: -moz-linear-gradient(top, #d1c288, #d6c49f);
+    background-image: -ms-linear-gradient(top, #d1c288, #d6c49f);
+    background-image: -o-linear-gradient(top, #d1c288, #d6c49f);
+    background-image: linear-gradient(to bottom, #d1c288, #d6c49f);
+    text-decoration: none;
+}
+
+
+.copyright {
+    margin-bottom: 0;
+    color: #7895B2;
+    padding-bottom: 30px;
+}
+
+.contactme {
+    background-color: #e0d4b6;
+    padding-top: 10px;
+}
+
 .css {
     height: 200px;
     float: left;
@@ -19,6 +76,7 @@ body {
 .developer {
     margin-top: 0;
     font-size: 1.875rem;
+    font-weight: normal;
 }
 
 .git {
@@ -41,11 +99,13 @@ h3 {
 }
 
 hr {
-    color: #7895B2;
+    color: #dacb9d;
     border-style: none;
     border-top-style: dotted;
     border-width: 8px thin thin thin;
     width: 30%;
+    margin: 100px auto;
+
 }
 
 .html {
@@ -58,6 +118,10 @@ hr {
     height: 200px;
     float: right;
     margin-left: 30px;
+}
+
+.middlesection {
+    background-color: #f1e8d1;
 }
 
 .mountain {
@@ -82,8 +146,13 @@ hr {
 
 
 p {
-    color: #AEBDCA;
+    color: #81a6c7;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.skills {
+    background-color: #f1e8d1;
 }
 
 .skill-row {
