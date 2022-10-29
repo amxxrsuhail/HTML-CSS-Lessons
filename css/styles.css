@@ -1,0 +1,61 @@
+body {
+    background-color: #DFF6FF;
+}
+
+hr {
+    background-color: #DFF6FF;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px thin thin thin;
+    color: #CAE1EB;
+    width: 5%;
+
+}
+
+h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1,
+h2,
+h3 {
+    color: #256D85;
+
+}
+
+/* below is the example of sudo classes [:hover] */
+h1:hover,
+h2:hover,
+h3:hover {
+    color: #da562f;
+}
+
+h4 {
+    color: #2fafda;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+#summary {
+    height: auto;
+    width: 1000px;
+}
+
+/* 
+this is used to select a class, it is used when u gotta customize just a thing in a category 
+.anynamegiveninhtml{
+ background-color: #256D85;
+}
+*/
+
+/* 
+this is used to select a id, it is used when u gotta customize just a thing in a category
+#anynamegiveninhtml{
+background-color: #256D85;
+} 
+*/
