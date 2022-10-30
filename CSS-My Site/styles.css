@@ -140,6 +140,7 @@ hr {
 .profilepic {
     border-radius: 100%;
     margin-top: 40px;
+    height: 190px;
 }
 
 .python {
