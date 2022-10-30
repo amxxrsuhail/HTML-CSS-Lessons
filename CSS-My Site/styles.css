@@ -18,8 +18,8 @@ body {
 
 .bottomcloud {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 150px;
+    bottom: 200px;
 }
 
 .bottomsection {
@@ -77,6 +77,8 @@ body {
     margin-top: 0;
     font-size: 1.875rem;
     font-weight: normal;
+    position: relative;
+    bottom: 45px;
 }
 
 .git {
@@ -91,6 +93,8 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     margin-bottom: 0;
+    position: relative;
+    bottom: 20px;
 }
 
 h2,
@@ -171,13 +175,13 @@ p {
 
 .topcloud {
     position: absolute;
-    right: 400px;
-    top: 260px;
+    right: 300px;
+    top: 160px;
 }
 
 .topsection {
     background-color: #F5EFE6;
     position: relative;
-    padding-top: 400px;
+    padding-top: 300px;
     height: 60vh;
 }
