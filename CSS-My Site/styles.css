@@ -186,64 +186,80 @@ p {
     height: 60vh;
 }
 
-@media screen (max-width: 900px)
+@media screen and (max-width: 768px)
 {
 
-    .topsection{
-        height: 1200px;
+    .mountain{
+        width: 65vw;
     }
+
+    h1{
+        font-size: 200%;
+    }
+
+    h3{
+        margin: 10%;
+    }
+
+    hr{
+        margin-top: 15%;
+        margin-bottom: 15%; 
+        width: 15%;
+    }
+
     .bottomcloud{
-        width: 22%;
+        width: 16%;
         position: relative;
-        top: 60%;
-        right: 100%;
+        left: 15%;
+        bottom: 50px;
         
     }
 
     .developer{
-        font-size: 1.5rem;
-        position: relative;
-        top: 480px;
-    }
-
-    h1{
-        font-size: 600%;
-        position: relative;
-        top: 500px;
-    }
-
-    .mountain{
-        width: 100%;
-        display: none;
+        font-size: 70%;
+        margin-top: 5%;
+        padding-bottom: 5%;
     }
 
     .topcloud{
-        width: 22%;
+        width: 16%;
         position: absolute;
-        left: 10%;
-        top: 30%;
-
+        right: 60%;
+        top: 20%;
     }
 
+    .summary{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .topsection{
+        height: 20vh;
+        padding-top: 48%;
+    }
+    .profilepic {
+        border-radius: 100%;
+        margin-top: 40px;
+        height: 15vh;
+    }
     .skill-row {
-        display: inline;
-        width: 10%;
-        height: 200px;
-        margin: 50%;
-        text-align: auto;
+        padding-left: 20%;
+        padding-right: 20%;
+        /* text-align: center; */
     }
 
-    .skill-icon{
-        padding: 10%;
-        width: 20%;
-        height: 50%;
+    .java,.python,.html,.git,.css{
+        text-align: center;
+        padding: 3%;
+        height: 40%;
     }
 
     .skill-description,h3{
         padding: 0% 5%;
+        margin: 5% 0;
     }
 
-
+    
 
     
     
