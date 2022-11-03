@@ -186,22 +186,30 @@ p {
     height: 60vh;
 }
 
-@media (max-width: 900px)
+@media (max-width: 90000px)
 {
+
+    .topsection{
+        height: 1200px;
+    }
     .bottomcloud{
         width: 22%;
         position: relative;
-        top: 10%;
+        top: 60%;
+        right: 100%;
         
     }
 
     .developer{
         font-size: 1.5rem;
-        padding-top: 2.5%;
+        position: relative;
+        top: 480px;
     }
 
     h1{
-        font-size: 3.8rem;
+        font-size: 600%;
+        position: relative;
+        top: 500px;
     }
 
     .mountain{
@@ -213,6 +221,8 @@ p {
         width: 22%;
         position: absolute;
         left: 10%;
+        top: 30%;
+
     }
 
     .skill-row {
