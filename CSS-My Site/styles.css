@@ -165,7 +165,6 @@ p {
     height: 200px;
     margin: 90px auto 50px auto;
     text-align: left;
-
 }
 
 .summary {
@@ -185,4 +184,56 @@ p {
     position: relative;
     padding-top: 300px;
     height: 60vh;
+}
+
+@media (max-width: 700px)
+{
+    .bottomcloud{
+        width: 22%;
+        position: relative;
+        top: 10%;
+        
+    }
+
+    .developer{
+        font-size: 1.5rem;
+        padding-top: 2.5%;
+    }
+
+    h1{
+        font-size: 3.8rem;
+    }
+
+    .mountain{
+        width: 100%;
+    }
+
+    .topcloud{
+        width: 22%;
+        position: absolute;
+        left: 10%;
+    }
+
+    .skill-row {
+        display: inline;
+        width: 10%;
+        height: 200px;
+        margin: 50%;
+        text-align: auto;
+    }
+
+    .skill-icon{
+        padding: 10%;
+        width: 20%;
+        height: 50%;
+    }
+
+    .skill-description,h3{
+        padding: 0% 5%;
+    }
+
+
+
+    
+    
 }
