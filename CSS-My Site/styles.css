@@ -186,7 +186,7 @@ p {
     height: 60vh;
 }
 
-@media (max-width: 900px)
+@media screen (max-width: 900px)
 {
 
     .topsection{
