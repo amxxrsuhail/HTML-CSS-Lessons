@@ -190,11 +190,11 @@ p {
 {
 
     .mountain{
-        width: 65vw;
+        width: 40vw;
     }
 
     h1{
-        font-size: 200%;
+        font-size: 100%;
     }
 
     h3{
@@ -216,7 +216,7 @@ p {
     }
 
     .developer{
-        font-size: 70%;
+        font-size: 40%;
         margin-top: 5%;
         padding-bottom: 5%;
     }
