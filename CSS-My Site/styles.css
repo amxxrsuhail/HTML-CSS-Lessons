@@ -206,6 +206,7 @@ p {
 
     .mountain{
         width: 100%;
+        display: none;
     }
 
     .topcloud{
