@@ -211,8 +211,8 @@ p {
     .bottomcloud{
         width: 16%;
         position: relative;
-        left: 15%;
-        bottom: 50px;
+        left: 18%;
+        bottom: 0%;
         
     }
 
@@ -226,7 +226,7 @@ p {
         width: 16%;
         position: absolute;
         right: 60%;
-        top: 20%;
+        top: 10%;
     }
 
     .summary{
@@ -235,7 +235,7 @@ p {
     }
 
     .topsection{
-        height: 100vh;
+        height: 50vh;
         padding-top: 48%;
     }
     .profilepic {
