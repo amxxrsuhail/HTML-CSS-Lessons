@@ -244,24 +244,29 @@ p {
         height: 15vh;
     }
     .skill-row {
-        padding-left: 10%;
-        padding-right: 10%;
-        margin: 50px;
+        margin: 2% 25%;
+        height: 50%;
         text-align: center;
-        
-        
     }
 
     .java,.python,.html,.git,.css{
-        float: left;
+        float: none;
         padding: 3%;
-        height: 40%;
+        margin: 5%;
+        height: 50%;
+        width: 50%;
         display: inline block;
     }
 
     .skills{
-        margin-bottom: 100px;
+        margin-bottom: 5%;
         
+    }
+
+    .skill-description{
+        display:inline block;
+        margin: 10%;
+        height: 100%;
     }
     
 
